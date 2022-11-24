@@ -1,0 +1,24 @@
+@import '../../styles/colors.scss';
+
+.Sidebar {
+  position: fixed;
+  width: 150px;
+  height: 100vh;
+  background: $secondary-color;
+
+  &-List {
+    padding: 10px 20px;
+  }
+
+  &-ListItem{
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  &-Text {
+    &:hover {
+      transform: scale(1.1);
+      color: $font-secondary
+    }
+  }
+}

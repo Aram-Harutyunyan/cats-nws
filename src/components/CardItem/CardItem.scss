@@ -1,0 +1,14 @@
+.CardItem {
+  width: 220px;
+  height: 350px;
+  cursor: pointer;
+  margin: 0.5rem;
+
+  &-Image {
+    border-radius: 10px;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
